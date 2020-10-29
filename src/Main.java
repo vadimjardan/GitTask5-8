@@ -4,7 +4,14 @@ public class Main {
 
         System.out.println("Hello, Git!");
         System.out.println("Let be friends");
+
+        sum(5,10);
+
     }
 
+    public static int sum (int a, int b)
+    {
+        return a+b;
+    }
 
 }
